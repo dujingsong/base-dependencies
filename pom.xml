@@ -12,7 +12,7 @@
 
     <groupId>cn.imadc.application</groupId>
     <artifactId>base-dependencies</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>release-0.0.1</version>
     <name>base-dependencies</name>
     <description>base-dependencies</description>
     <packaging>pom</packaging>
