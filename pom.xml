@@ -12,7 +12,7 @@
 
     <groupId>cn.imadc.application</groupId>
     <artifactId>base-dependencies</artifactId>
-    <version>release-0.0.1</version>
+    <version>release-0.0.2</version>
     <name>base-dependencies</name>
     <description>base-dependencies</description>
     <packaging>pom</packaging>
@@ -34,6 +34,8 @@
         <java.jwt.version>3.18.3</java.jwt.version>
         <bcprov-jdk15on.version>1.68</bcprov-jdk15on.version>
         <hutool.version>5.7.20</hutool.version>
+        <lettuce-core.version>6.1.6.RELEASE</lettuce-core.version>
+        <rocketmq.version>4.7.1</rocketmq.version>
     </properties>
 
     <dependencyManagement>
@@ -101,6 +103,23 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-core</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+            <!-- lettuce -->
+            <dependency>
+                <groupId>io.lettuce</groupId>
+                <artifactId>lettuce-core</artifactId>
+                <version>${lettuce-core.version}</version>
+            </dependency>
+            <!-- rocketmq -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-common</artifactId>
+                <version>${rocketmq.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-remoting</artifactId>
+                <version>${rocketmq.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
