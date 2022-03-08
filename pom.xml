@@ -121,6 +121,11 @@
                 <artifactId>rocketmq-remoting</artifactId>
                 <version>${rocketmq.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatis.plus.boot.starter.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
