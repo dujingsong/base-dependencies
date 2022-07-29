@@ -53,6 +53,7 @@
         <lettuce-core.version>6.1.6.RELEASE</lettuce-core.version>
         <rocketmq.version>4.7.1</rocketmq.version>
         <spring.boot.version>2.5.7</spring.boot.version>
+        <elasticjob-lite-spring-boot-starter.version>3.0.1</elasticjob-lite-spring-boot-starter.version>
 
     </properties>
 
@@ -149,7 +150,12 @@
                 <artifactId>rocketmq-remoting</artifactId>
                 <version>${rocketmq.version}</version>
             </dependency>
-
+            <!-- elasticjob -->
+            <dependency>
+                <groupId>org.apache.shardingsphere.elasticjob</groupId>
+                <artifactId>elasticjob-lite-spring-boot-starter</artifactId>
+                <version>${elasticjob-lite-spring-boot-starter.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
