@@ -54,6 +54,7 @@
         <rocketmq.version>4.7.1</rocketmq.version>
         <spring.boot.version>2.5.7</spring.boot.version>
         <elasticjob-lite-spring-boot-starter.version>3.0.1</elasticjob-lite-spring-boot-starter.version>
+        <rocketmq-spring-boot-starter.version>2.1.1</rocketmq-spring-boot-starter.version>
 
     </properties>
 
@@ -149,6 +150,11 @@
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-remoting</artifactId>
                 <version>${rocketmq.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq-spring-boot-starter.version}</version>
             </dependency>
             <!-- elasticjob -->
             <dependency>
