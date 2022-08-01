@@ -55,6 +55,8 @@
         <spring.boot.version>2.5.7</spring.boot.version>
         <elasticjob-lite-spring-boot-starter.version>3.0.1</elasticjob-lite-spring-boot-starter.version>
         <rocketmq-spring-boot-starter.version>2.1.1</rocketmq-spring-boot-starter.version>
+        <p6spy.version>3.9.1</p6spy.version>
+        <druid-spring-boot-starter.version>1.2.11</druid-spring-boot-starter.version>
 
     </properties>
 
@@ -161,6 +163,18 @@
                 <groupId>org.apache.shardingsphere.elasticjob</groupId>
                 <artifactId>elasticjob-lite-spring-boot-starter</artifactId>
                 <version>${elasticjob-lite-spring-boot-starter.version}</version>
+            </dependency>
+            <!-- p6spy -->
+            <dependency>
+                <groupId>p6spy</groupId>
+                <artifactId>p6spy</artifactId>
+                <version>${p6spy.version}</version>
+            </dependency>
+            <!-- druid-spring-boot-starter -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid-spring-boot-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
